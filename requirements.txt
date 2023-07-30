@@ -1,5 +1,4 @@
 ﻿altair==5.0.1
-anaconda-navigator==2.4.0
 appdirs==1.4.4
 async-lru==2.0.2
 atomicwrites==1.4.0
