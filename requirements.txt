@@ -9,8 +9,6 @@ cachetools==5.3.1
 constantly==15.1.0
 cssselect==1.1.0
 CurrencyConverter==0.17.9
-datashape==0.5.4
-et-xmlfile==1.1.0
 folium==0.14.0
 fonttools==4.25.0
 forex-python==1.8
