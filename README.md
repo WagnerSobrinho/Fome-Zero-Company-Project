@@ -1,6 +1,81 @@
 # Problema de Negócio
 
-A empresa Fome Zero é uma marketplace de restaurantes, ou seja, seu core business é facilitar o encontro e negociações entre consumidores e restaurantes. Os restaurantes realizam o cadastro dentro da plataforma do Fome Zero, que disponibiliza aos consumidores, informações como, localização, tipo de culinária, se possuem sistema de reservas, se realizam entregas, avaliação dos restaurantes, quantidade de avaliaçãoes relizadas, dentre outras informações.
+A empresa Fome Zero é uma marketplace de restaurantes, ou seja, seu core business é facilitar o encontro e negociações entre consumidores e restaurantes. Os restaurantes realizam o cadastro dentro da plataforma do Fome Zero, que disponibiliza aos consumidores, informações como, localização, tipo de culinária, se possuem sistema de reservas, se realizam entregas, avaliação dos restaurantes, quantidade de avaliações realizadas, dentre outras informações.
+
+
+# O Desafio
+
+Acabei de ser contratado como Cientista de Dados da empresa Fome Zero e a minha principal tarefa nesse momento foi ajudar o CEO Kleiton Guerra a identificar pontos chaves da empresa, respondendo às perguntas que ele fez utilizando dados!
+
+O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Fome Zero, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, responder às seguintes perguntas:
+
+## Visão Geral
+
+1. Quantos restaurantes únicos estão registrados?
+2. Quantos países únicos estão registrados?
+3. Quantas cidades únicas estão registradas?
+4. Qual o total de avaliações feitas?
+5. Qual o total de tipos de culinária registrados?
+
+## Visão País
+
+1. Qual o nome do país que possui mais cidades registradas?
+2. Qual o nome do país que possui mais restaurantes registrados?
+3. Qual o nome do país que possui mais restaurantes com o nível de preço igual a 4 registrados?
+4. Qual o nome do país que possui a maior quantidade de tipos de culinária distintos?
+5. Qual o nome do país que possui a maior quantidade de avaliações feitas?
+6. Qual o nome do país que possui a maior quantidade de restaurantes que fazem entrega?
+7. Qual o nome do país que possui a maior quantidade de restaurantes que aceitam reservas?
+8. Qual o nome do país que possui, na média, a maior quantidade de avaliações registrada?
+9. Qual o nome do país que possui, na média, a maior nota média registrada?
+10. Qual o nome do país que possui, na média, a menor nota média registrada?
+11. Qual a média de preço de um prato para dois por país?
+
+
+## Visão Cidades
+
+1. Qual o nome da cidade que possui mais restaurantes registrados?
+2. Qual o nome da cidade que possui mais restaurantes com nota média acima de 4?
+3. Qual o nome da cidade que possui mais restaurantes com nota média abaixo de 2.5?
+4. Qual o nome da cidade que possui o maior valor médio de um prato para dois?
+5. Qual o nome da cidade que possui a maior quantidade de tipos de culinária distintas?
+6. Qual o nome da cidade que possui a maior quantidade de restaurantes que fazem reservas?
+7. Qual o nome da cidade que possui a maior quantidade de restaurantes que fazem entregas?
+8. Qual o nome da cidade que possui a maior quantidade de restaurantes que aceitam pedidos online?
+
+
+## Visão Restaurantes
+
+1. Qual o nome do restaurante que possui a maior quantidade de avaliações?
+2. Qual o nome do restaurante com a maior nota média?
+3. Qual o nome do restaurante que possui o maior valor de um prato para duas pessoas?
+4. Qual o nome do restaurante de tipo de culinária brasileira que possui a menor média de avaliação?
+5. Qual o nome do restaurante de tipo de culinária brasileira, e que é do Brasil, que possui a maior média de avaliação?
+6. Os restaurantes que aceitam pedido online são também, na média, os restaurantes que mais possuem avaliações registradas?
+7. Os restaurantes que fazem reservas são também, na média, os restaurantes que possuem o maior valor médio de um prato para duas pessoas?
+8. Os restaurantes do tipo de culinária japonesa dos Estados Unidos da América possuem um valor médio de prato para duas pessoas maior que as churrascarias americanas (BBQ)?
+
+
+## Visão Culinária
+
+1. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a maior média de avaliação?
+2. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a menor média de avaliação?
+3. Dos restaurantes que possuem o tipo de culinária americana, qual o nome do restaurante com a maior média de avaliação?
+4. Dos restaurantes que possuem o tipo de culinária americana, qual o nome do restaurante com a menor média de avaliação?
+5. Dos restaurantes que possuem o tipo de culinária árabe, qual o nome do restaurante com a maior média de avaliação?
+6. Dos restaurantes que possuem o tipo de culinária árabe, qual o nome do restaurante com a menor média de avaliação?
+7. Dos restaurantes que possuem o tipo de culinária japonesa, qual o nome do restaurante com a maior média de avaliação?
+8. Dos restaurantes que possuem o tipo de culinária japonesa, qual o nome do restaurante com a menor média de avaliação?
+9. Dos restaurantes que possuem o tipo de culinária caseira, qual o nome do restaurante com a maior média de avaliação?
+10. Dos restaurantes que possuem o tipo de culinária caseira, qual o nome do restaurante com a menor média de avaliação?
+11. Qual o tipo de culinária que possui o maior valor médio de um prato para duas pessoas?
+12. Qual o tipo de culinária que possui a maior nota média?
+13. Qual o tipo de culinária que possui mais restaurantes que aceitam pedidos online e fazem entregas?
+
+O CEO também pediu que fosse gerado dashboards que permitisse que ele visualizasse as principais informações das perguntas que ele fez. O CEO precisa dessas informações o mais rápido possível, uma vez que ele também é novo na empresa e irá utilizá-las para entender melhor a empresa Fome Zero para conseguir tomar decisões mais assertivas.
+
+O meu trabalho foi utilizar os dados que a empresa Fome Zero possuia e responder as perguntas feitas do CEO e criar os dashboards solicitados.
+
         
 ## Premissas do Dashboard:
 1. Os dados utilizados para criação deste Dashboard foram obtidos via plataforma Kaggle:
@@ -12,18 +87,19 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
       - Visão Geográfica:  Insights de geolocalização dos restaurantes.
 
 	- Visão por Países:
-      - Principais métricas, Quantidade de restaurantes por país, Quantidade de cidades por país, Quantidade média de avaliações por país, Preço médio de prato para duas pessoas por país;
+      - Principais métricas, Quantidade de restaurantes por país, Quantidade de cidades por país, Quantidade média de avaliações por país, Preço médio de prato para duas pessoas por país.
           
 	- Visão por Cidades:
-       - Principais métricas, Top 10 cidades com mais restaurantes cadastrados, Top 7 cidades com mais restaurantes com avaliação acima de 4, Top 7 cidades com mais restaurantes com avaliação abaixo de 2.5, Top 10 cidade com mais restaurante com tipo de culinária única;
+       - Principais métricas, Top 10 cidades com mais restaurantes cadastrados, Top 7 cidades com mais restaurantes com avaliação acima de 4, Top 7 cidades com mais restaurantes com avaliação abaixo de 2.5, Top 10 cidade com mais restaurante com tipo de culinária única.
     
 	- Visão por Culinárias:
-      -  Principais métricas, Melhores Restaurantes pelos principais tipos de culinária, Top 10 Restaurantes com Melhores avaliações, Top 10 Culinárias melhores avaliadas e Top 10 Culinárias piores avaliadas
+      -  Principais métricas, Melhores Restaurantes pelos principais tipos de culinária, Top 10 Restaurante com as melhores avaliações, Top 10 Culinária melhor avaliada e Top 10 Culinária pior avaliada.
 
 4. Para uma melhor análise, foi realizado a conversão dos valores do pratos de cada restaurante para dólar, utilizando o câmbio do dia 14/07/2023.
-5. Durante a exploração dos dados, os poucos dados discrepantes foram substituídos pelo valor médio correspondente
-6. Existem restaurantes não avaliados ou sem registro do valor do prato, esses restaurantes foram mantidos na base e podem ser eliminados dos gráficos através dos filtros na barra lateral;
+5. Alterado a coluna de código de país para o nome do país.
+6. Criado uma coluna de categoria de tipo preço com base no range de valores.
 7. Nos casos onde houve empate entre restaurantes, foi considerado o restaurante com registro mais antigo.
+8. Categorizado, inicialmente, todos os restaurantes somente por um tipo de culinária.
       
 ## Como utilizar este Dashboard.
 - Na barra lateral é possível realizar alguns filtros, como:
@@ -37,25 +113,14 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
       
 Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lentidão no processamento dos dados;
     
-- Visão Geral
-    - Visão Geral da Plataforma com os números dos Steakholders. Principais números referentes à plataforma de delivery;
-    - Visão Geográfica:  Insights de geolocalização.
-- Visão Empresa
-    - Visão Gerencial:   Métricas gerais de comportamento.
-    - Visão Tática:      Indicadores semanais de crescimento.   
-- Visão Entregadores
-    - Acompanhamento dos indicadores semanais de crescimento.
-- Visão Restaurantes
-    - Acompanhamento dos indicadores semanais de crescimento dos restaurantes.
-- Visão Culinárias
-
 
 ## Próximos passos:
 
-- Realizar uma nova avaliação global dos dados para obter mais insights para o negócio.
+- Realizar uma nova avaliação global dos dados para obter mais insights para o negócio;
+- Reduzir o número de perguntas;
+- Aumentar o número de gráficos com outras perpectivas de análises.
 
             
-        Ask for help
-        - Time de Data Science no Discord
-            - wagnersobrinho    
-    """)
+Ask for help
+- Time de Data Science no Discord
+  - wagnersobrinho    
