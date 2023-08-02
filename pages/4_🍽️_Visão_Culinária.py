@@ -295,7 +295,7 @@ def average_cost_usd ( df1 ):
 # ======================================
 # Import dataset
 # ======================================
-df = pd.read_csv( 'dataset/zomato.csv' )
+df = pd.read_csv( 'dataset\zomato.csv' )
 
 # ======================================
 #Limpando os dados
@@ -440,13 +440,13 @@ with st.container():
     col1, col2 = st.columns( 2 )
         
     with col1:
-        centered_markdown = f'<p style="font-size:16px; text-align:center">Top {str(top_n)} Melhores Tipos de Culinárias</p>'
+        centered_markdown = f'<p style="font-size:16px; text-align:center">Top {str(top_n)} Culinária Melhor Avaliada</p>'
         st.markdown(centered_markdown, unsafe_allow_html=True)
         melhores_fig = top_10(df1, melhores=True)
         st.plotly_chart(melhores_fig, use_container_width=True)       
             
     with col2:
-        centered_markdown = f'<p style="font-size:16px; text-align:center">Top {str(top_n)} Piores Tipos de Culinárias</p>'
+        centered_markdown = f'<p style="font-size:16px; text-align:center">Top {str(top_n)} Culinária Pior Avaliada</p>'
         st.markdown(centered_markdown, unsafe_allow_html=True)
         piores_fig = top_10(df1, melhores=False)
         st.plotly_chart(piores_fig, use_container_width=True)
