@@ -1,9 +1,9 @@
-# 1. Problema de Negócio
+# Problema de Negócio
 
 A empresa Fome Zero é uma marketplace de restaurantes, ou seja, seu core business é facilitar o encontro e negociações entre consumidores e restaurantes. Os restaurantes realizam o cadastro dentro da plataforma do Fome Zero, que disponibiliza aos consumidores, informações como, localização, tipo de culinária, se possuem sistema de reservas, se realizam entregas, avaliação dos restaurantes, quantidade de avaliações realizadas, dentre outras informações.
 
 
-# 2. O Desafio
+# O Desafio
 
 Acabei de ser contratado como Cientista de Dados da empresa Fome Zero e a minha principal tarefa nesse momento foi ajudar o CEO Kleiton Guerra a identificar pontos chaves da empresa, respondendo às perguntas que ele fez utilizando dados!
 
@@ -77,7 +77,7 @@ O CEO também pediu que fosse gerado dashboards que permitisse que ele visualiza
 O meu trabalho foi utilizar os dados que a empresa Fome Zero possuia e responder as perguntas feitas do CEO e criar os dashboards solicitados.
 
         
-# 3. Premissas do Dashboard:
+# Premissas do Dashboard:
 1. Os dados utilizados para criação deste Dashboard foram obtidos via plataforma Kaggle:
 https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
 2. O Dashboard foi construido para acompanhar as métricas e ajudar na gestão da plataforma, além de ajudar em insights para alavancar o crescimento do negócio. Disponibilizado alguns KPI's iniciais ao dashboard, podendo ser agregado outros;
@@ -113,11 +113,11 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
       
 Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lentidão no processamento dos dados;
 
-# 5. Top 3 Insights de dados.
+# Top 3 Insights de dados.
 
-# 6. O produto final do Projeto.
+# O produto final do Projeto.
 
-# 7. Conclusão.
+# Conclusão.
 
 
 # Próximos passos:
