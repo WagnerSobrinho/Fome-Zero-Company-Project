@@ -139,18 +139,18 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
 Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lentidão no processamento dos dados;
 
 ## Alguns Insights de dados.
-Quantidade de restaurantes, países, cidades, avaliações realizadas e culinária cadastrados na Base.
-Quantidade de restaurantes cadastrados por país
-Quantidade de cidades cadastradas por país
-Quantidade Média de Avaliações por país
-Preço Médio do prato para duas pessoas por país
-Top 10 cidades com mais restaurantes cadastrados 
-Top 7 cidades com mais restaurantes com média de avaliação acima de 4
-Top 7 cidades com mais restaurantes com média de avaliação abaixo de 2.5
-Melhores Restaurantes pelos principais tipos de culinária
-Top 10 Restaurantes com Melhores avaliações
-Top 10 Culinária Melhor Avaliada
-Top 10 Culinária Pior Avaliada
+-	Quantidade de restaurantes, países, cidades, avaliações realizadas e culinária cadastrados na Base;
+-	Quantidade de restaurantes cadastrados por país;
+-	Quantidade de cidades cadastradas por país;
+-	Quantidade Média de Avaliações por país;
+-	Preço Médio do prato para duas pessoas por país;
+-	Top 10 cidades com mais restaurantes cadastrados; 
+-	Top 7 cidades com mais restaurantes com média de avaliação acima de 4;
+-	Top 7 cidades com mais restaurantes com média de avaliação abaixo de 2.5;
+-	Melhores Restaurantes pelos principais tipos de culinária;
+-	Top 10 Restaurantes com Melhores avaliações;
+-	Top 10 Culinária Melhor Avaliada;
+-	Top 10 Culinária Pior Avaliada.
 
 
 ## O produto final do Projeto.
