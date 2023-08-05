@@ -113,12 +113,27 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
       
 Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lentidão no processamento dos dados;
 
-# Top 3 Insights de dados.
+# Alguns Insights de dados.
+Quantidade de restaurantes, países, cidades, avaliações realizadas e culinária cadastrados na Base.
+Quantidade de restaurantes cadastrados por país
+Quantidade de cidades cadastradas por país
+Quantidade Média de Avaliações por país
+Preço Médio do prato para duas pessoas por país
+Top 10 cidades com mais restaurantes cadastrados 
+Top 7 cidades com mais restaurantes com média de avaliação acima de 4
+Top 7 cidades com mais restaurantes com média de avaliação abaixo de 2.5
+Melhores Restaurantes pelos principais tipos de culinária
+Top 10 Restaurantes com Melhores avaliações
+Top 10 Culinária Melhor Avaliada
+Top 10 Culinária Pior Avaliada
+
 
 # O produto final do Projeto.
+Painel online, hospedado em Cloud e disponível para acesso em qualquer dispositivo conectado à internet.
+O painel pode ser acessado atráves desse link: [https://wagnersobrinho-project-fome-zero-company.streamlit.app/] (https://wagnersobrinho-project-fome-zero-company.streamlit.app/)
 
 # Conclusão.
-
+O objetivo deste projeto é criar um conjunto de gráficos e / ou tabelas que exibam essas métricas da melhor forma possível para o CEO entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a empresa.
 
 # Próximos passos:
 
