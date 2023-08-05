@@ -148,4 +148,5 @@ Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lent
             
 Ask for help
 - Time de Data Science no Discord
-  - wagnersobrinho    
+  	- wagnersobrinho    
+""")
