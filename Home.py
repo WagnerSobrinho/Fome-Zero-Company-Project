@@ -34,7 +34,7 @@ Acabei de ser contratado como Cientista de Dados da empresa Fome Zero e a minha 
 
 O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Fome Zero, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, responder às seguintes perguntas:
 
-## Visão Geral
+## 1. Visão Geral
 
 1. Quantos restaurantes únicos estão registrados?
 2. Quantos países únicos estão registrados?
@@ -42,7 +42,7 @@ O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio 
 4. Qual o total de avaliações feitas?
 5. Qual o total de tipos de culinária registrados?
 
-## Visão País
+## 2. Visão País
 
 1. Qual o nome do país que possui mais cidades registradas?
 2. Qual o nome do país que possui mais restaurantes registrados?
@@ -57,7 +57,7 @@ O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio 
 11. Qual a média de preço de um prato para dois por país?
 
 
-## Visão Cidades
+## 3. Visão Cidades
 
 1. Qual o nome da cidade que possui mais restaurantes registrados?
 2. Qual o nome da cidade que possui mais restaurantes com nota média acima de 4?
@@ -69,7 +69,7 @@ O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio 
 8. Qual o nome da cidade que possui a maior quantidade de restaurantes que aceitam pedidos online?
 
 
-## Visão Restaurantes
+## 4. Visão Restaurantes
 
 1. Qual o nome do restaurante que possui a maior quantidade de avaliações?
 2. Qual o nome do restaurante com a maior nota média?
@@ -81,7 +81,7 @@ O CEO Guerra também foi recém-contratado e precisa entender melhor o negócio 
 8. Os restaurantes do tipo de culinária japonesa dos Estados Unidos da América possuem um valor médio de prato para duas pessoas maior que as churrascarias americanas (BBQ)?
 
 
-## Visão Culinária
+## 5. Visão Culinária
 
 1. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a maior média de avaliação?
 2. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a menor média de avaliação?
@@ -102,7 +102,7 @@ O CEO também pediu que fosse gerado dashboards que permitisse que ele visualiza
 O meu trabalho foi utilizar os dados que a empresa Fome Zero possuia e responder as perguntas feitas do CEO e criar os dashboards solicitados.
 
         
-## Premissas do Dashboard:
+# Premissas do Dashboard:
 1. Os dados utilizados para criação deste Dashboard foram obtidos via plataforma Kaggle:
 https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
 2. O Dashboard foi construido para acompanhar as métricas e ajudar na gestão da plataforma, além de ajudar em insights para alavancar o crescimento do negócio. Disponibilizado alguns KPI's iniciais ao dashboard, podendo ser agregado outros;
@@ -126,7 +126,7 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
 7. Nos casos onde houve empate entre restaurantes, foi considerado o restaurante com registro mais antigo.
 8. Categorizado, inicialmente, todos os restaurantes somente por um tipo de culinária.
       
-## Como utilizar este Dashboard.
+# 4. Como utilizar este Dashboard.
 - Na barra lateral é possível realizar alguns filtros, como:
     - excluir ou incluir restaurantes sem avaliação;
     - excluir ou incluir restaurantes sem registro de custo médio do prato para duas pessoas;
@@ -137,9 +137,30 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
     - filtrar por país de interesse ou filtrar vários países.
       
 Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lentidão no processamento dos dados;
-    
 
-## Próximos passos:
+# Alguns Insights de dados.
+Quantidade de restaurantes, países, cidades, avaliações realizadas e culinária cadastrados na Base.
+Quantidade de restaurantes cadastrados por país
+Quantidade de cidades cadastradas por país
+Quantidade Média de Avaliações por país
+Preço Médio do prato para duas pessoas por país
+Top 10 cidades com mais restaurantes cadastrados 
+Top 7 cidades com mais restaurantes com média de avaliação acima de 4
+Top 7 cidades com mais restaurantes com média de avaliação abaixo de 2.5
+Melhores Restaurantes pelos principais tipos de culinária
+Top 10 Restaurantes com Melhores avaliações
+Top 10 Culinária Melhor Avaliada
+Top 10 Culinária Pior Avaliada
+
+
+# O produto final do Projeto.
+Painel online, hospedado em Cloud e disponível para acesso em qualquer dispositivo conectado à internet.
+O painel pode ser acessado atráves desse link: [https://wagnersobrinho-project-fome-zero-company.streamlit.app/] (https://wagnersobrinho-project-fome-zero-company.streamlit.app/)
+
+# Conclusão.
+O objetivo deste projeto é criar um conjunto de gráficos e / ou tabelas que exibam essas métricas da melhor forma possível para o CEO entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a empresa.
+
+# Próximos passos:
 
 - Realizar uma nova avaliação global dos dados para obter mais insights para o negócio;
 - Reduzir o número de perguntas;
@@ -148,5 +169,5 @@ Ao se escolher todos os restaurantes, o sistema pode apresentar um pouco de lent
             
 Ask for help
 - Time de Data Science no Discord
-  	- wagnersobrinho    
+  - wagnersobrinho    
 """)
